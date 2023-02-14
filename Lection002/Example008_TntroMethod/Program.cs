@@ -1,4 +1,5 @@
-﻿int Max(int arg1, int arg2, int arg3)
+﻿// Сам метод Max
+int Max(int arg1, int arg2, int arg3)
 {
       int result = arg1;
       if (arg2 > result) result = arg2;
@@ -6,8 +7,7 @@
       return result;
 }
 
-
-
+// Вводим предустановленные значения
 int a1 = 15;
 int b1 = 21;
 int c1 = 39;

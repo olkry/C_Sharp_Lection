@@ -5,8 +5,10 @@
       if (arg3 > result) result = arg3;
       return result;
 }
+// Вводим массив напрямую
 int[] array = { 11, 211, 31, 41, 15, 61, 17, 18, 19 };
 
+// Подставляем индексы массива
 int max = Max(
       Max(array[0], array[1], array[2]),
       Max(array[3], array[4], array[5]),
